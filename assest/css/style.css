@@ -122,7 +122,7 @@ button:hover{
 /* header section */
 
 .header-wrapper{
-    background: url('../img/banner-bg.jpg'); 
+    background: url('./assest/img/banner-bg.jpg'); 
 
     background-repeat: no-repeat;
     min-height: 100vh;
