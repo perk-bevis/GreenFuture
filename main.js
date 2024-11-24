@@ -42,4 +42,13 @@ var swiper = new Swiper('.Services-swiper',{
             spaceBetween:10,
         },
     },
-})
+});
+
+var swiper = new Swiper('.projectSwiper',{
+    slidesPerView:3,
+    spaceBetween:10,
+    loop:true,
+    autoplay:{
+        delay:2000,
+    },
+});
