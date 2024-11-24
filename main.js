@@ -1,6 +1,4 @@
-
 // show menu
-
 let line = document.querySelector('.navbar .ri-menu-line');
 let menu = document.querySelector('.navbar ul');
 line.addEventListener('click',() =>{
@@ -14,4 +12,34 @@ window.addEventListener('scroll',() =>{
     }else{
         nav.classList.remove('navbarSticky');
     };
+})
+
+// SERVICE SLIDER
+var swiper = new Swiper('.Services-swiper',{
+    loop:true,
+    autoplay:{
+        delay:3000,
+    },
+    breakpoints:{
+        0:{
+            slidesPerView:1,
+
+            spaceBetween:10,
+        },
+        640:{
+            slidesPerView:2,
+
+            spaceBetween:10,
+        },
+        1024:{
+            slidesPerView:2,
+
+            spaceBetween:10,
+        },
+        1400:{
+            slidesPerView:4,
+
+            spaceBetween:10,
+        },
+    },
 })
