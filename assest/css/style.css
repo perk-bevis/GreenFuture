@@ -485,6 +485,8 @@ button:hover{
 .counter{
     background-image: url(../img/counter-bg.png);
     display: grid;
+    margin-top:50px;
+    margin-bottom:50px;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     justify-content: center;
     align-items: center;
