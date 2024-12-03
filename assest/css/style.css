@@ -552,12 +552,20 @@ button:hover{
     width: 100%;
 }
 
+
 .project_card {
-    width: 100%;
+    display: block; /* hoặc flex-direction: row nếu cần */
+}
+
+.projectSwiper .swiper-slide {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; /* Hoặc chỉnh lại tùy ý */
     align-items: center;
+    justify-content: center;
+}
+.swiper {
+    width: 100%;
+    height: auto;
 }
 
 .project_img{
