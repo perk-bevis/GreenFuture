@@ -44,7 +44,7 @@ var swiper = new Swiper('.Services-swiper',{
     },
 });
 
-var swipers = new Swiper('.projectSwiper',{
+var swiper = new Swiper('.projectSwiper',{
     slidesPerView:3,
     spaceBetween:10,
     loop:true,
