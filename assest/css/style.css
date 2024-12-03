@@ -541,9 +541,12 @@ button:hover{
     justify-content: flex-start;
     gap: 50px;
 }
-.swiper {
 
+.swiper {
+    width: 100%;
+    height: auto;
 }
+
 .projects .Headings{
     width: 70%;
 }
@@ -554,7 +557,8 @@ button:hover{
 
 
 .project_card {
-    display: block; /* hoặc flex-direction: row nếu cần */
+    display: block; 
+    flex-direction: row;
 }
 
 .projectSwiper .swiper-slide {
@@ -562,10 +566,6 @@ button:hover{
     flex-direction: column; /* Hoặc chỉnh lại tùy ý */
     align-items: center;
     justify-content: center;
-}
-.swiper {
-    width: 100%;
-    height: auto;
 }
 
 .project_img{
