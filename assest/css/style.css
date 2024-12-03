@@ -555,18 +555,14 @@ button:hover{
     width: 100%;
 }
 
-
-.project_card {
-    display: block; 
-    flex-direction: row;
+.project_card { 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-.projectSwiper .swiper-slide {
-    display: flex;
-    flex-direction: column; /* Hoặc chỉnh lại tùy ý */
-    align-items: center;
-    justify-content: center;
-}
 
 .project_img{
     width: 100%;
