@@ -43,12 +43,13 @@ var swiper = new Swiper('.Services-swiper',{
         },
     },
 });
-
-var swiper = new Swiper('.projectSwiper',{
-    slidesPerView:3,
-    spaceBetween:10,
-    loop:true,
-    autoplay:{
-        delay:2000,
-    },
+document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.projectSwiper', {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        loop: true,
+        autoplay: {
+            delay: 2000,
+        },
+    });
 });
